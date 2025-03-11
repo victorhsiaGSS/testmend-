@@ -1,0 +1,53 @@
+{
+  "files": [],
+  "packages": [
+    {
+      "name": "WebGoat.NET-master",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "v1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/gss/spdx.org/WebGoat.NET-master@v1?tag_id=da366eb5-7a99-4da5-9164-08e7d58d08e7"
+        }
+      ],
+      "supplier": "Organization: gss",
+      "hasFiles": []
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "WebGoat.NET-master v1",
+  "documentNamespace": "https://spdx.org/spdxdocs/sbom-tool-2.2.6-c493dfe2-22fa-4c2a-afb7-775beb148650/WebGoat.NET-master/v1/vdQ6xoN5nk29KqwSZBbDWA",
+  "creationInfo": {
+    "created": "2024-08-07T03:00:55Z",
+    "creators": [
+      "Organization: gss",
+      "Tool: Microsoft.SBOMTool-2.2.6"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}
