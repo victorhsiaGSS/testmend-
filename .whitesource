@@ -3,7 +3,7 @@
     "configMode": "AUTO",
     "configExternalURL": "",
     "projectToken": "",
-    "baseBranches": []
+    "baseBranches": ["main","eddy"]
   },
   "scanSettingsSAST": {
     "enableScan": true,
