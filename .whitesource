@@ -3,19 +3,24 @@
     "configMode": "AUTO",
     "configExternalURL": "",
     "projectToken": "",
-    "baseBranches": ["main","eddy"]
+    "baseBranches": ["master"],
+    "enableIaC": true
   },
   "scanSettingsSAST": {
     "enableScan": true,
+    "enableRemediation": true,
     "scanPullRequests": true,
     "incrementalScan": true,
-    "baseBranches": [],
+    "findingSuppressions": "enabled",
+    "enableSecretsScan": true,
+    "baseBranches": ["master"],
     "snippetSize": 10
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
     "displayMode": "diff",
-    "useMendCheckNames": true
+    "useMendCheckNames": true,
+    "iacCheckRunConclusionLevel": "failure"
   },
   "checkRunSettingsSAST": {
     "checkRunConclusionLevel": "failure",
@@ -34,12 +39,13 @@
       "enabled": true
     }
   },
-   "imageSettings":{
-       "imageTracing":{
-           "enableImageTracingPR": false,
-           "addRepositoryCoordinate": false,
-           "addDockerfilePath": false,
-           "addMendIdentifier": false
-       }
-   }
+  "imageSettings": {
+    "imageTracing": {
+      "enableImageTracingPR": true,
+      "addRepositoryCoordinates": true,
+      "addDockerfilePath": true,
+      "addMendIdentifier": true
+    }
+  }
 }
+
